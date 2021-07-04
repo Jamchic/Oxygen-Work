@@ -3,20 +3,90 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p class="p1"><span class="s1">Hello</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1">Some text</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
+<form align="center">
+<table border="1" bordercolor="black" align="center" width="100%" height="100%">
+<tr>
+  <td>
+     <select name="1">
+       <option selected value="v1">Вариант №1</option>
+       <option value="v2">Вариант №2</option>
+       <option value="v3">Вариант №3</option>
+       <input type="submit" value="Отправить">
+     </select>
+   </td>
+  <td align="center">
+    <select name="2" size="4">
+      <option selected value="v1">Вариант №1</option>
+      <option value="v2">Вариант №2</option>
+      <option value="v3">Вариант №3</option>
+      <option value="v4">Вариант №4</option>
+      <input type="submit" value="Отправить">
+    </select>
+  </td>
+  <td>
+    <p><b>Укажите цифру:</b></p>
+    <label><input maxlength="5" size="10" value="4"></label>
+  </td>
+  <td>
+    <select name="choice" size="1" >
+      <option selected value="var1">Вариант №1</option>
+      <option value="var2">Вариант №2</option>
+      <option value="var3">Вариант №3</option>
+    </select>
+  </td>
+</tr>
+  <tr>
+    <td>
+    <p>Размер рисунка</p>
+    <label><input type="range" min="1" max="5" id="size" oninput="sizePic()" value="3"></label>
+     <p><img alt="pic of Vinni Puh" src="81386_640.jpg" id="pic"></p>
+    </td>
+    <td>
+    <label><input type="reset" value="Очистить"></label>
+    </td>
+    <td>
+    <label><input type="search" placeholder="Поиск по сайту"></label>
+    <label><input type="submit" value="Найти"></label>
+    </td>
+    <td>
+      <b>Укажите цвет фона:</b>
+      <label><input type="color" value="#FF0000"></label>
+      <label><input type="button" value="Выбрать"></label>
+    </td>
+  </tr>
+  <tr>
+    <td class="td1">
+    <p><b>Укажите</b></p>
+      <p><label><input type="radio" name="answer" value="a1">Radio BUTTON</label></p>
+      <p><label><input type="radio" name="answer" value="a2">Radio BUTTON</label></p>
+      <p><label><input type="radio" name="answer" value="a3">Radio BUTTON</label></p>
+      <p><input type="submit"></p>
+    </td>
+    <td>
+      <p><b>Введите текст:</b></p>
+      <label><textarea rows="3" cols="15"></textarea></label>
+      <p><input type="submit"></p>
+    </td>
+    <td>
+      <p class="p1"><b>Укажите дату</b></p>
+      <label><input type="checkbox" name="answer" value="2010">2010</label>
+      <p><label><input type="checkbox" name="answer" value="2014">2014</label></p>
+      <p><label><input type="checkbox" name="answer" value="2017">2017</label></p>
+      <p><label><input type="checkbox" name="answer" value="2019">2019</label></p>
+      <p><input type="submit" value="Отправить"></p>
+    </td>
+    <td>
+      <p><b>Загрузите фотографию</b></p>
+      <input type="file" name="photo" multiple accept="image/*">
+     <input type="submit" value="Отправить">
+    </td>
+  </tr>
+</table>
+</form>
 </body>
 </html>
