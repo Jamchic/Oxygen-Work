@@ -1,3 +1,12 @@
 body header {
-    background: aquamarine;
+    background: #43b1d2;
+}
+.phone {
+    float: right;
+    vertical-align: top;
+}
+.menu {
+    float: right;
+    display: flex;
+    list-style: none;
 }
