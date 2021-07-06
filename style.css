@@ -1,12 +1,34 @@
 body header {
     background: #43b1d2;
 }
+#Logo {
+    margin:35px 15px 25px;
+}
 .phone {
     float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
     vertical-align: top;
+    align-self: auto;
+    color: white;
+}
+.menu .flex-container {
+    /*генерирует flex-контейнер уровня строки*/
+    display: -webkit-inline-flex;
+    display: inline-flex;
 }
 .menu {
+    margin-top: 74px;
+    margin-bottom: 22px;
     float: right;
     display: flex;
     list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #494848;
+}
+a:active {
+  color: white;
 }
