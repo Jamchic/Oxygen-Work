@@ -9,10 +9,19 @@ body {
 body header {
     background: #43b1d2;
 }
+.clearfix {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto; }
+
 .Logod {
     float: left;
 }
-#Logo {
+.Logo {
     padding: 20px 15px 20px;
 }
 .phone {
@@ -37,17 +46,12 @@ body header {
     justify-content: center;
 
 }
-a {
+.menupoint {
     text-decoration: none;
     color: #494848;
 }
 a:active {
   color: white;
-}
-.clearfix {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 .buttonup {
     position: fixed;
