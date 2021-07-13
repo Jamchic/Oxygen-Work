@@ -261,3 +261,11 @@ li {
     color: #494848;
     font-size: 19px;
 }
+.cabinets {
+    color: #494848;
+    background-color: #cbd4e6;
+    font-family: serif;
+    align-items: center;
+    width: 125px;
+    height: 40px;
+}
