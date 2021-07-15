@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 td {
     background: aqua;
     color: burlywood;
@@ -22,3 +23,289 @@ input:active {
 td.td1 {
     color: darkgreen;
 }
+=======
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.header {
+    background: #43b1d2;
+    width: 1440px;
+}
+.container {
+    padding: 25px 15px 20px 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.Logod {
+    float: left;
+}
+.Logo {
+    padding: 20px 15px 20px;
+}
+.phone {
+    margin-right: 15px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+.menu .flex-container {
+    /*генерирует flex-контейнер уровня строки*/
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.relement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.menupoint {
+    text-decoration: none;
+    color: #494848;
+    font-size: 20px;
+}
+a:active {
+  color: white;
+}
+.buttonup {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px;
+    border-color: blue;
+    color: blue;
+    font-family: "Roboto Light";
+    font-size: 20px;
+    margin: 10px 20px 5px 10px;
+}
+li {
+    margin: 20px 25px 20px;
+}
+.imgphone {
+    margin-right: 15px;
+}
+.contactform {
+    background-color: #cad3e5;
+    background-image:url(img/doctor.png);
+    width: 1440px;
+    height: 515px;
+    display: flex;
+}
+.contactinfo {
+    text-align: end;
+    font-size: 24px;
+    font-family: serif;
+    color: #494848;
+}
+.h1info {
+    font-size: 36px;
+    font-family:sans-serif;
+    color: #494848;
+    text-align: end;
+}
+.contactdiv {
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 825px;
+    align-items: flex-end;
+    display: flex;
+    padding-right: 15px;
+}
+.phonebox {
+    width: 230px;
+    height: 40px;
+    color: #494848;
+}
+.sendbutton {
+    width: 100px;
+    height: 40px;
+    color: #494848;
+    background-color: #cad3e5;
+    border-width: 1px;
+}
+.navigation {
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    color: white;
+}
+.nav1 {
+    width: 360px;
+    height: 320px;
+    background-color: #43b1d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nav2 {
+    width: 360px;
+    height: 320px;
+    background-color: #3fb6c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nav3 {
+    width: 360px;
+    height: 320px;
+    background-color: #3cbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nav4 {
+    width: 360px;
+    height: 320px;
+    background-color: #37c3a8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.p1 {
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+    font-family: serif;
+}
+.h2 {
+    font-size: 27px;
+    font-family: sans-serif;
+}
+.navicon {
+    background-color: white;
+    border-radius: 100px;
+}
+.menu2{
+    display: inline-flex;
+    list-style: none;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-decoration: none;
+    color: #43b1d2;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+#MRT {
+    color: #494848;
+    border: 1px solid #dee2e6;
+    border-bottom: -5px white;
+}
+.clinics {
+    width: 1440px;
+    height: 1115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #dee2e6;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clinic1 {
+    width: 690px;
+    height: 280px;
+    border: 1px solid #43b1d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address {
+    color: #9bd5e7;
+}
+.divheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.clinicinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cliniclogo {
+    width: 200px;
+    height: 70px;
+}
+.callorder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.h2info {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-family:sans-serif;
+    color: #494848;
+    text-align: end;
+}
+.textclinic {
+    display: flex;
+    justify-content: center;
+    color: #494848;
+    font-size: 19px;
+    font-family: serif;
+}
+.callbutton {
+    background-color: #37c3a8;
+    color: white;
+    font-size: 19px;
+    font-family: serif;
+    width: 175px;
+    height: 45px;
+}
+.phonenumber {
+    color: #494848;
+    font-size: 19px;
+}
+.cabinets {
+    color: #494848;
+    background-color: #cbd4e6;
+    font-family: serif;
+    align-items: center;
+    width: 125px;
+    height: 40px;
+}
+.lastbutton {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+>>>>>>> feature/01.07.2021

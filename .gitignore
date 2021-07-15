@@ -1,3 +1,8 @@
 .ignore
 .idea
+<<<<<<< HEAD
 node_modules/
+=======
+note_modules
+
+>>>>>>> feature/01.07.2021
