@@ -1,33 +1,21 @@
-<<<<<<< HEAD
-td {
-    background: aqua;
-    color: burlywood;
-    border: 1px;
-}
-input[type="radio"]:checked {
-    margin-left: 25px; }
-
-input[type="checkbox"]:checked {
-    margin-left: 25px;
-}
-
-input:hover {
-    color: blue;
-}
-input:active {
-    color: red;
-}
-.p1 {
-    color: blueviolet;
-}
-td.td1 {
-    color: darkgreen;
-}
-=======
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+@font-face {
+    font-family: 'decima nova bold';
+    src: url('../Test/Calibri/Calibri-Bold.ttf')
+    format: 'ttf';
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'decima nova';
+    src: url('../Test/Calibri/Calibri.ttf')
+    format: 'ttf';
+    font-weight: normal;
+    font-style: normal;
 }
 body {
     margin: 0;
@@ -45,13 +33,13 @@ body {
     margin-left: auto;
     margin-right: auto; }
 
-.Logod {
+.container__logo {
     float: left;
 }
-.Logo {
+.container__logo-img {
     padding: 20px 15px 20px;
 }
-.phone {
+.top-menu__phone {
     margin-right: 15px;
     display: flex;
     color: white;
@@ -63,17 +51,17 @@ body {
     display: -webkit-inline-flex;
     display: inline-flex;
 }
-.menu {
+.top-menu__menu {
     display: flex;
     list-style: none;
 }
-.relement {
+.top-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
-.menupoint {
+.top-menu__point {
     text-decoration: none;
     color: #494848;
     font-size: 20px;
@@ -98,26 +86,26 @@ li {
 .imgphone {
     margin-right: 15px;
 }
-.contactform {
+.banner {
     background-color: #cad3e5;
     background-image:url(img/doctor.png);
     width: 1440px;
     height: 515px;
     display: flex;
 }
-.contactinfo {
+.banner__text {
     text-align: end;
     font-size: 24px;
-    font-family: serif;
+    font-family: "decima nova";
     color: #494848;
 }
-.h1info {
+.banner__h1 {
     font-size: 36px;
-    font-family:sans-serif;
+    font-family: "decima nova bold";
     color: #494848;
     text-align: end;
 }
-.contactdiv {
+.banner__info {
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
@@ -128,25 +116,25 @@ li {
     display: flex;
     padding-right: 15px;
 }
-.phonebox {
+.banner__phonebox {
     width: 230px;
     height: 40px;
     color: #494848;
 }
-.sendbutton {
+.banner__sendbutton {
     width: 100px;
     height: 40px;
     color: #494848;
     background-color: #cad3e5;
     border-width: 1px;
 }
-.navigation {
+.services {
     width: 1440px;
     height: 320px;
     display: flex;
     color: white;
 }
-.nav1 {
+.services__element1 {
     width: 360px;
     height: 320px;
     background-color: #43b1d2;
@@ -157,7 +145,7 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.nav2 {
+.services__element2 {
     width: 360px;
     height: 320px;
     background-color: #3fb6c6;
@@ -168,7 +156,7 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.nav3 {
+.services__element3 {
     width: 360px;
     height: 320px;
     background-color: #3cbbbb;
@@ -179,7 +167,7 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.nav4 {
+.services__element4 {
     width: 360px;
     height: 320px;
     background-color: #37c3a8;
@@ -190,21 +178,21 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.p1 {
+.services__p {
     text-align: center;
     line-height: 2;
     font-size: 14px;
     font-family: serif;
 }
-.h2 {
+.services__h {
     font-size: 27px;
     font-family: sans-serif;
 }
-.navicon {
+.services__element1-img_white {
     background-color: white;
     border-radius: 100px;
 }
-.menu2{
+/*.menu2{  (Это было для меню табов)
     display: inline-flex;
     list-style: none;
     justify-content: flex-start;
@@ -213,7 +201,7 @@ li {
     color: #43b1d2;
     font-family: sans-serif;
     font-size: 24px;
-}
+}*/
 #MRT {
     color: #494848;
     border: 1px solid #dee2e6;
@@ -230,7 +218,7 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-.clinic1 {
+.clinics__element {
     width: 690px;
     height: 280px;
     border: 1px solid #43b1d2;
@@ -241,33 +229,33 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-.address {
+.clinics__address_text_white {
     color: #9bd5e7;
 }
-.divheader {
+.clinics__header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
     align-items: center;
 }
-.clinicinfo {
+.clinics__info {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.cliniclogo {
+.clinics__logo {
     width: 200px;
     height: 70px;
 }
-.callorder {
+.clinics__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
     align-items: center;
 }
-.h2info {
+.clinics__h_align {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 36px;
@@ -275,14 +263,14 @@ li {
     color: #494848;
     text-align: end;
 }
-.textclinic {
+.clinics__text {
     display: flex;
     justify-content: center;
     color: #494848;
     font-size: 19px;
     font-family: serif;
 }
-.callbutton {
+.clinics__button {
     background-color: #37c3a8;
     color: white;
     font-size: 19px;
@@ -290,11 +278,11 @@ li {
     width: 175px;
     height: 45px;
 }
-.phonenumber {
+.clinics__phone_style {
     color: #494848;
     font-size: 19px;
 }
-.cabinets {
+.container-button__button {
     color: #494848;
     background-color: #cbd4e6;
     font-family: serif;
@@ -302,10 +290,8 @@ li {
     width: 125px;
     height: 40px;
 }
-.lastbutton {
-    width: 100%;
+.container-button {
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
->>>>>>> feature/01.07.2021
