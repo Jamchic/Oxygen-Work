@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="920f02eb-9093-4f5f-b89a-f6a2cf7ffd66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Ellipse 2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -36,12 +35,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed5c384e-22da-4e18-a61a-abc878093631" name="Default Changelist" comment="" />
+      <changelist id="920f02eb-9093-4f5f-b89a-f6a2cf7ffd66" name="Default Changelist" comment="" />
       <created>1624713539982</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624713539982</updated>
       <workItem from="1624713564934" duration="4924000" />
+      <workItem from="1626758705778" duration="1562000" />
+      <workItem from="1626770133299" duration="885000" />
+      <workItem from="1626774823753" duration="326000" />
     </task>
     <servers />
   </component>

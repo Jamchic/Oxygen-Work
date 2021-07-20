@@ -4,16 +4,16 @@
     padding: 0;
 }
 @font-face {
-    font-family: 'decima nova bold';
+    font-family: 'calibri bold';
     src: url('../Test/Calibri/Calibri-Bold.ttf')
-    format: 'ttf';
+    format:'ttf';
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: 'decima nova';
+    font-family: 'calibri';
     src: url('../Test/Calibri/Calibri.ttf')
-    format: 'ttf';
+    format:'ttf';
     font-weight: normal;
     font-style: normal;
 }
@@ -22,17 +22,17 @@ body {
 }
 .header {
     background: #43b1d2;
-    width: 1440px;
+    width: auto;
+    margin: auto;
 }
 .container {
-    padding: 25px 15px 20px 105px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1440px;
     margin-left: auto;
-    margin-right: auto; }
-
+    margin-right: auto;
+    padding: 0 15px;
+}
 .container__logo {
     float: left;
 }
@@ -89,19 +89,18 @@ li {
 .banner {
     background-color: #cad3e5;
     background-image:url(img/doctor.png);
-    width: 1440px;
     height: 515px;
     display: flex;
 }
 .banner__text {
     text-align: end;
     font-size: 24px;
-    font-family: "decima nova";
+    font-family: "calibri";
     color: #494848;
 }
 .banner__h1 {
     font-size: 36px;
-    font-family: "decima nova bold";
+    font-family: "calibri bold";
     color: #494848;
     text-align: end;
 }
@@ -129,7 +128,6 @@ li {
     border-width: 1px;
 }
 .services {
-    width: 1440px;
     height: 320px;
     display: flex;
     color: white;
@@ -205,10 +203,8 @@ li {
 #MRT {
     color: #494848;
     border: 1px solid #dee2e6;
-    border-bottom: -5px white;
 }
 .clinics {
-    width: 1440px;
     height: 1115px;
     display: flex;
     flex-direction: column;
