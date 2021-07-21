@@ -17,6 +17,37 @@
     font-weight: normal;
     font-style: normal;
 }
+@media (max-width: 1200px) {
+    .container {
+        width: 970px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+    .container__logo-img {
+        padding: 15px 10px 15px;
+    }
+    .top-menu__phone {
+        margin-right: 10px;
+        display: flex;
+        color: white;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+    .header {
+        background: #43b1d2;
+        width: auto;
+        margin: auto;
+    }
+    .menu .flex-container {
+        /*генерирует flex-контейнер уровня строки*/
+        display: -webkit-inline-flex;
+        display: block;
+    }
+}
 body {
     margin: 0;
 }
