@@ -1,0 +1,29 @@
+.cube {
+    position: relative;
+    margin: auto;
+    padding: 0px 15px;
+}
+.cube__side {
+    height: 95px;
+    width: 95px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.cube__side_top {
+    background: #9acc53;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+.cube__side_left {
+    background: #8ec63f;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+.cube__side_right {
+    background: #80b239;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
