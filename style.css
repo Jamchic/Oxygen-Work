@@ -5,15 +5,13 @@
 }
 @font-face {
     font-family: 'calibri bold';
-    src: url('../Test/Calibri/Calibri-Bold.ttf')
-    format:'ttf';
+    src: url("/Calibri/Calibri-Bold.ttf") format("ttf");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'calibri';
-    src: url('../Test/Calibri/Calibri.ttf')
-    format:'ttf';
+    src: url("/Calibri/Calibri.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -28,6 +26,30 @@
         flex-direction: row;
         justify-content: center;
     }
+}
+.top-menu__icon_first {
+    width: 25px; height: 25px;
+    background: url('img/css_sprites.png') -10px -10px;
+}
+.services__icon_second {
+    width: 68px; height: 68px;
+    background: url('img/css_sprites.png') -142px -10px;
+}
+.services__icon_third {
+    width: 68px; height: 68px;
+    background: url('img/css_sprites.png') -230px -10px;
+}
+.services__icon_fourth {
+    width: 68px; height: 68px;
+    background: url('img/css_sprites.png') -318px -10px;
+}
+.services__icon_fifth {
+    width: 67px; height: 68px;
+    background: url('img/css_sprites.png') -55px -10px;
+}
+.icon {
+    width: 66px;
+    height: 66px;
 }
 body {
     margin: 0;
