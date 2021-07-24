@@ -330,6 +330,21 @@ a:active {
     .top-menu__point {
         margin: 10px;
     }
+    .banner__info {
+        max-width: 400px;
+    }
+    .banner__text {
+        font-size: 18px;
+    }
+    .banner__h1 {
+        font-size: 26px;
+    }
+    .banner__phonebox {
+        width: auto;
+    }
+    .banner__sendbutton {
+        width: auto;
+    }
 }
 @media (max-width: 970px) {
     .container {
@@ -342,6 +357,26 @@ a:active {
     .top-menu__menu {
         margin-top: 40px;
         justify-content: center;
+    }
+    .banner {
+        background-image: none;
+        justify-content: center;
+    }
+    .banner__info {
+        margin: 0;
+    }
+    .banner__text {
+        text-align: center;
+    }
+    .banner__h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .banner__phonebox {
+        width: 230px;
+    }
+    .banner__sendbutton {
+        width: 100px;
     }
 }
 @media (max-width: 460px) {
@@ -356,5 +391,11 @@ a:active {
     }
     .top-menu__phone {
         justify-content: center;
+    }
+    .banner__phonebox {
+        width: auto;
+    }
+    .banner__sendbutton {
+        width: auto;
     }
 }
