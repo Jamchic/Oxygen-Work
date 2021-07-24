@@ -31,6 +31,9 @@
     width: 25px; height: 25px;
     background: url('img/css_sprites.png') -10px -10px;
 }
+.top-menu__phone-icon {
+    width: 25px; height: 25px;
+}
 .services__icon_second {
     width: 68px; height: 68px;
     background: url('img/css_sprites.png') -142px -10px;
