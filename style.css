@@ -15,9 +15,12 @@
     font-weight: normal;
     font-style: normal;
 }
-.top-menu__icon_first {
-    width: 25px; height: 25px;
-    background: url('img/css_sprites.png') -10px -10px;
+/*.top-menu__icon_first {*/
+/*    width: 25px; height: 25px;*/
+/*    background: url('img/css_sprites.png') -10px -10px;*/
+/*    margin-right: 10px;*/
+/*}*/
+.top-menu__phone-icon {
     margin-right: 10px;
 }
 .top-menu__phone-icon {
@@ -26,6 +29,9 @@
 .services__icon_second {
     width: 68px; height: 68px;
     background: url('img/css_sprites.png') -142px -10px;
+}
+.services__icon {
+    width: 68px; height: 68px;
 }
 .services__icon_third {
     width: 68px; height: 68px;
@@ -377,6 +383,12 @@ a:active {
     }
     .banner__sendbutton {
         width: 100px;
+    }
+    .services
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 @media (max-width: 460px) {
