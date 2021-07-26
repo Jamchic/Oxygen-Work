@@ -157,7 +157,6 @@ a:active {
     border-width: 1px;
 }
 .services {
-    height: 320px;
     display: flex;
     color: white;
 }
@@ -326,6 +325,10 @@ a:active {
     }
     .clinics {
         height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -391,6 +394,34 @@ a:active {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .clinics__text {
+        font-size: 12px
+    }
+    .clinics__h_align {
+        font-size: 18px
+    }
+    .clinics__phone_style {
+        font-size: 12px
+    }
+    .clinics__element {
+        width: auto;
+        height: auto;
+    }
+    .clinics__logo {
+        width: 100px;
+        height: 35px;
+    }
+    .clinics__button {
+        background-color: #37c3a8;
+        color: white;
+        font-size: 12px;
+        font-family: serif;
+        width: 100px;
+        height: 30px;
+    }
+    .clinics__address_text_white {
+        font-size: 12px;
     }
 }
 @media (max-width: 460px) {
