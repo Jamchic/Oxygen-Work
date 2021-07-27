@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Jamchic/Oxygen-Work#readme",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.36.0"
   }
 }
