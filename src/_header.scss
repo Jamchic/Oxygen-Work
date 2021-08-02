@@ -1,0 +1,74 @@
+$header-color: #43b1d2;
+$top-menu-color: white;
+$top-menu-point-color: #494848;
+$padding: 20px 15px 20px;
+
+.header {
+  background: $header-color;
+  width: auto;
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  @media (max-width: 1200px) {
+      width: 970px;
+      padding: 0 15px; }
+  @media (max-width: 970px) {
+      width: 100%;
+      flex-direction: column; }
+  &__logo-img {
+    padding: $padding;
+  }
+
+.top-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 970px) {
+    margin-top: -90px; }
+  }
+  @media (max-width: 460px) {
+    margin-top: 0;
+  }
+  &__phone {
+  margin-right: 15px;
+  display: flex;
+  color: $top-menu-color;
+  font-size: 20px;
+  justify-content: flex-end;
+    @media (max-width: 460px) {
+      justify-content: center;
+    }
+    &__phone-icon {
+  margin-right: 10px;
+  width: 25px; height: 25px;
+      &__menu {
+        display: flex;
+        list-style: none;
+        justify-content: flex-start;
+        @media (max-width: 1200px) {
+          flex-wrap: wrap;
+          @media (max-width: 970px) {
+            margin-top: 40px;
+            justify-content: center; }
+          }
+        @media (max-width: 460px) {
+          margin-top: 0;
+        }
+        &__point {
+          text-decoration: none;
+          color: $top-menu-point-color;
+          font-size: 20px;
+          margin: 20px 25px 20px;
+          display: inline-block;
+          @media (max-width: 1230px) {
+              margin: 10px; }
+            @media (max-width: 1200px) {
+                margin: 10px;
+            }
+
