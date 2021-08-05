@@ -1,8 +1,3 @@
-$header-color: #43b1d2;
-$top-menu-color: white;
-$top-menu-point-color: #494848;
-$padding: 20px 15px 20px;
-
 .header {
   background: $header-color;
   width: auto;
@@ -28,7 +23,7 @@ $padding: 20px 15px 20px;
 .top-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; }
   @media (max-width: 970px) {
     margin-top: -90px; }
   }
@@ -40,17 +35,17 @@ $padding: 20px 15px 20px;
   display: flex;
   color: $top-menu-color;
   font-size: 20px;
-  justify-content: flex-end;
+  justify-content: flex-end; }
     @media (max-width: 460px) {
       justify-content: center;
     }
     &__phone-icon {
   margin-right: 10px;
-  width: 25px; height: 25px;
+  width: 25px; height: 25px; }
       &__menu {
         display: flex;
         list-style: none;
-        justify-content: flex-start;
+        justify-content: flex-start; }
         @media (max-width: 1200px) {
           flex-wrap: wrap;
           @media (max-width: 970px) {
@@ -65,7 +60,7 @@ $padding: 20px 15px 20px;
           color: $top-menu-point-color;
           font-size: 20px;
           margin: 20px 25px 20px;
-          display: inline-block;
+          display: inline-block; }
           @media (max-width: 1230px) {
               margin: 10px; }
             @media (max-width: 1200px) {
