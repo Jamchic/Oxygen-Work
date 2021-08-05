@@ -89,6 +89,77 @@
       .top-menu__point {
         margin: 10px; } }
 
+.banner {
+  background-color: #cad3e5;
+  background-image: url(../img/doctor.png);
+  height: 515px;
+  display: flex; }
+  @media (max-width: 970px) {
+    .banner {
+      background-image: none;
+      justify-content: center; } }
+  .banner__info {
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 825px;
+    align-items: flex-end;
+    display: flex;
+    padding-right: 15px; }
+    @media (max-width: 1200px) {
+      .banner__info {
+        max-width: 400px; } }
+    @media (max-width: 970px) {
+      .banner__info {
+        margin: 0; } }
+  .banner__text {
+    text-align: end;
+    font-size: 24px;
+    font-family: "calibri";
+    color: #494848; }
+    @media (max-width: 1200px) {
+      .banner__text {
+        font-size: 18px; } }
+    @media (max-width: 970px) {
+      .banner__text {
+        text-align: center; } }
+  .banner__h1 {
+    font-size: 36px;
+    font-family: "calibri bold";
+    color: #494848;
+    text-align: end; }
+    @media (max-width: 1200px) {
+      .banner__h1 {
+        font-size: 26px; } }
+    @media (max-width: 970px) {
+      .banner__h1 {
+        text-align: center;
+        width: 100%; } }
+  .banner__phonebox {
+    width: 230px;
+    height: 40px;
+    color: #494848; }
+    @media (max-width: 1200px) {
+      .banner__phonebox {
+        width: auto; } }
+    @media (max-width: 970px) {
+      .banner__phonebox {
+        width: 230px; } }
+  .banner__sendbutton {
+    width: 100px;
+    height: 40px;
+    color: #494848;
+    background-color: #cad3e5;
+    border-width: 1px; }
+    @media (max-width: 1200px) {
+      .banner__sendbutton {
+        width: auto; } }
+    @media (max-width: 970px) {
+      .banner__sendbutton {
+        width: 100px; } }
+
 /*.top-menu__icon_first {*/
 /*    width: 25px; height: 25px;*/
 /*    background: url('img/css_sprites.png') -10px -10px;*/
@@ -306,56 +377,13 @@ a:active {
   flex-direction: row; }
 
 @media (max-width: 1230px) {
-  .top-menu__point {
-    margin: 10px; }
   .clinics {
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; } }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 970px;
-    padding: 0 15px; }
-  .top-menu__menu {
-    flex-wrap: wrap; }
-  .top-menu__point {
-    margin: 10px; }
-  .banner__info {
-    max-width: 400px; }
-  .banner__text {
-    font-size: 18px; }
-  .banner__h1 {
-    font-size: 26px; }
-  .banner__phonebox {
-    width: auto; }
-  .banner__sendbutton {
-    width: auto; } }
-
 @media (max-width: 970px) {
-  .container {
-    width: 100%;
-    flex-direction: column; }
-  .top-menu {
-    margin-top: -90px; }
-  .top-menu__menu {
-    margin-top: 40px;
-    justify-content: center; }
-  .banner {
-    background-image: none;
-    justify-content: center; }
-  .banner__info {
-    margin: 0; }
-  .banner__text {
-    text-align: center; }
-  .banner__h1 {
-    text-align: center;
-    width: 100%; }
-  .banner__phonebox {
-    width: 230px; }
-  .banner__sendbutton {
-    width: 100px; }
   .services {
     flex-direction: row;
     flex-wrap: wrap;

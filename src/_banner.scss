@@ -1,10 +1,12 @@
-
 .banner {
   background-color: $banner-color;
   background-image: url(../img/doctor.png);
   height: 515px;
   display: flex;
-
+  @media (max-width: 970px) {
+    background-image: none;
+    justify-content: center;
+  }
   &__info {
     justify-content: space-around;
     flex-direction: column;
@@ -15,6 +17,12 @@
     align-items: flex-end;
     display: flex;
     padding-right: 15px;
+    @media (max-width: 1200px) {
+      max-width: 400px;
+    }
+    @media (max-width: 970px) {
+      margin: 0;
+    }
   }
 
   &__text {
@@ -22,6 +30,12 @@
     font-size: 24px;
     font-family: "calibri";
     color: #494848;
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media (max-width: 970px) {
+      text-align: center;
+    }
   }
 
   &__h1 {
@@ -29,12 +43,25 @@
     font-family: "calibri bold";
     color: #494848;
     text-align: end;
+    @media (max-width: 1200px) {
+      font-size: 26px;
+    }
+    @media (max-width: 970px) {
+      text-align: center;
+      width: 100%;
+    }
   }
 
   &__phonebox {
     width: 230px;
     height: 40px;
     color: #494848;
+    @media (max-width: 1200px) {
+      width: auto;
+    }
+    @media (max-width: 970px) {
+      width: 230px;
+    }
   }
 
   &__sendbutton {
@@ -43,5 +70,11 @@
     color: #494848;
     background-color: $banner-color;
     border-width: 1px;
+    @media (max-width: 1200px) {
+      width: auto;
+    }
+    @media (max-width: 970px) {
+      width: 100px;
+    }
   }
 }

@@ -235,9 +235,6 @@ a:active {
   flex-direction: row;
 }
 @media (max-width: 1230px) {
-  .top-menu__point {
-    margin: 10px;
-  }
   .clinics {
     height: auto;
     display: flex;
@@ -245,65 +242,7 @@ a:active {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 1200px) {
-  .container {
-    width: 970px;
-    padding: 0 15px;
-  }
-  .top-menu__menu {
-    flex-wrap: wrap;
-  }
-  .top-menu__point {
-    margin: 10px;
-  }
-  .banner__info {
-    max-width: 400px;
-  }
-  .banner__text {
-    font-size: 18px;
-  }
-  .banner__h1 {
-    font-size: 26px;
-  }
-  .banner__phonebox {
-    width: auto;
-  }
-  .banner__sendbutton {
-    width: auto;
-  }
-}
 @media (max-width: 970px) {
-  .container {
-    width: 100%;
-    flex-direction: column;
-  }
-  .top-menu {
-    margin-top: -90px;
-  }
-  .top-menu__menu {
-    margin-top: 40px;
-    justify-content: center;
-  }
-  .banner {
-    background-image: none;
-    justify-content: center;
-  }
-  .banner__info {
-    margin: 0;
-  }
-  .banner__text {
-    text-align: center;
-  }
-  .banner__h1 {
-    text-align: center;
-    width: 100%;
-  }
-  .banner__phonebox {
-    width: 230px;
-  }
-  .banner__sendbutton {
-    width: 100px;
-  }
   .services
   {
     flex-direction: row;
