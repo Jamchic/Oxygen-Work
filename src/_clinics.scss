@@ -1,0 +1,85 @@
+.clinics {
+  height: 1115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: $top-menu-color;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+&__element {
+  width: 690px;
+  height: 280px;
+  border: $services-element1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+&__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+&__logo {
+  width: 200px;
+  height: 70px;
+}
+
+&__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.&__h_align {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #494848;
+  text-align: end;
+}
+
+&__address_text_white {
+  color: #9bd5e7;
+}
+
+&__text {
+  display: flex;
+  justify-content: center;
+  color: #494848;
+  font-size: 19px;
+  font-family: serif;
+}
+
+&__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+&__phone_style {
+  color: #494848;
+  font-size: 19px;
+}
+
+&__button {
+  background-color: $services-element4;
+  color: $top-menu-color;
+  font-size: 19px;
+  font-family: serif;
+  width: 175px;
+  height: 45px;
+}
+

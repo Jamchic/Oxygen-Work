@@ -1,16 +1,16 @@
 .services {
   display: flex;
-  color: white;
+  color: $top-menu-color;
   @media (max-width: 970px) {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
   &__element1 {
     width: 360px;
     height: 320px;
-    background-color: #43b1d2;
+    background-color: $services-element1;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,7 +39,7 @@
   &__element2 {
     width: 360px;
     height: 320px;
-    background-color: #3fb6c6;
+    background-color: $services-element2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -51,7 +51,7 @@
   &__element3 {
     width: 360px;
     height: 320px;
-    background-color: #3cbbbb;
+    background-color: $services-element3;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -63,7 +63,7 @@
   &__element4 {
     width: 360px;
     height: 320px;
-    background-color: #37c3a8;
+    background-color: $services-element4;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
