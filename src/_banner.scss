@@ -1,0 +1,46 @@
+
+.banner {
+  background-color: $banner-color;
+  background-image: url(../img/doctor.png);
+  height: 515px;
+  display: flex;
+
+  &__info {
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 825px;
+    align-items: flex-end;
+    display: flex;
+    padding-right: 15px;
+  }
+
+  &__text {
+    text-align: end;
+    font-size: 24px;
+    font-family: "calibri";
+    color: #494848;
+  }
+
+  &__h1 {
+    font-size: 36px;
+    font-family: "calibri bold";
+    color: #494848;
+    text-align: end;
+  }
+
+  &__phonebox {
+    width: 230px;
+    height: 40px;
+    color: #494848;
+  }
+
+  &__sendbutton {
+    width: 100px;
+    height: 40px;
+    color: #494848;
+    background-color: $banner-color;
+    border-width: 1px;
+  }

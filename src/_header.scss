@@ -3,6 +3,7 @@
   width: auto;
   margin: auto;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -23,16 +24,18 @@
     padding: $padding;
   }
 }
-  .top-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    @media (max-width: 970px) {
-      margin-top: -90px;
-    }
+
+.top-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 970px) {
+    margin-top: -90px;
+  }
   @media (max-width: 460px) {
     margin-top: 0;
   }
+
   &__phone {
     margin-right: 15px;
     display: flex;
@@ -43,11 +46,13 @@
       justify-content: center;
     }
   }
+
   &__phone-icon {
     margin-right: 10px;
     width: 25px;
     height: 25px;
   }
+
   &__menu {
     display: flex;
     list-style: none;
