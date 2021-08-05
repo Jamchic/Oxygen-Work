@@ -62,6 +62,9 @@
     @media (max-width: 970px) {
       width: 230px;
     }
+    @media (max-width: 460px) {
+      width: auto;
+    }
   }
 
   &__sendbutton {
@@ -75,6 +78,9 @@
     }
     @media (max-width: 970px) {
       width: 100px;
+    }
+    @media (max-width: 460px) {
+      width: auto;
     }
   }
 }

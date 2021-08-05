@@ -22,30 +22,12 @@ $padding: 20px 15px 20px;
 $banner-color: #cad3e5;
 @import "header";
 @import "banner";
+@import "services";
 /*.top-menu__icon_first {*/
 /*    width: 25px; height: 25px;*/
 /*    background: url('img/css_sprites.png') -10px -10px;*/
 /*    margin-right: 10px;*/
 /*}*/
-.services__icon_second {
-  width: 68px; height: 68px;
-  background: url('img/css_sprites.png') -142px -10px;
-}
-.services__icon {
-  width: 68px; height: 68px;
-}
-.services__icon_third {
-  width: 68px; height: 68px;
-  background: url('img/css_sprites.png') -230px -10px;
-}
-.services__icon_fourth {
-  width: 68px; height: 68px;
-  background: url('img/css_sprites.png') -318px -10px;
-}
-.services__icon_fifth {
-  width: 67px; height: 68px;
-  background: url('img/css_sprites.png') -55px -10px;
-}
 .icon {
   width: 66px;
   height: 66px;
@@ -69,69 +51,6 @@ a:active {
 }
 .imgphone {
   margin-right: 15px;
-}
-
-.services {
-  display: flex;
-  color: white;
-}
-.services__element1 {
-  width: 360px;
-  height: 320px;
-  background-color: #43b1d2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.services__element2 {
-  width: 360px;
-  height: 320px;
-  background-color: #3fb6c6;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.services__element3 {
-  width: 360px;
-  height: 320px;
-  background-color: #3cbbbb;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.services__element4 {
-  width: 360px;
-  height: 320px;
-  background-color: #37c3a8;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.services__p {
-  text-align: center;
-  line-height: 2;
-  font-size: 14px;
-  font-family: serif;
-}
-.services__h {
-  font-size: 27px;
-  font-family: sans-serif;
-}
-.services__element1-img_white {
-  background-color: white;
-  border-radius: 100px;
 }
 /*.menu2{  (Это было для меню табов)
     display: inline-flex;
@@ -243,12 +162,6 @@ a:active {
   }
 }
 @media (max-width: 970px) {
-  .services
-  {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
   .clinics__text {
     font-size: 12px
   }
@@ -276,25 +189,5 @@ a:active {
   }
   .clinics__address_text_white {
     font-size: 12px;
-  }
-}
-@media (max-width: 460px) {
-  .top-menu {
-    margin-top: 0;
-  }
-  .top-menu__menu {
-    margin-top: 0;
-  }
-  .container__logo {
-    text-align: center;
-  }
-  .top-menu__phone {
-    justify-content: center;
-  }
-  .banner__phonebox {
-    width: auto;
-  }
-  .banner__sendbutton {
-    width: auto;
   }
 }
