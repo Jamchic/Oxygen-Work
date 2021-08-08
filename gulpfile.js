@@ -14,6 +14,7 @@ gulp.task('scss', function () {
         .pipe(postcss([
             cssnano()
         ]))
+        .pipe(postcss([ autoprefixer() ]))
         .pipe(gulp.dest('./dist'));
 });
 
