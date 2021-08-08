@@ -1,16 +1,38 @@
 .sliders{
   display: flex;
-
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $sliders-bg;
+  height: 420px;
   &__articles {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__h {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
   }
   &__img {
-
+    width: 350px;
+    height: 234px;
+    display: flex;
+    justify-content: center;
   }
   &__text {
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   &__arrow {
+    display: flex;
 
   }
   &__arrow_sliders_right {
