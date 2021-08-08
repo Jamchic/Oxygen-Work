@@ -6,13 +6,20 @@
   height: 420px;
   &__articles {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__article1 {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 234px;
   }
   &__h {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    color: $top-menu-point-color;
   }
   &__img {
     width: 350px;
@@ -23,7 +30,12 @@
   &__text {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    line-height: 0.9;
+    width: 415px;
+    height: 234px;
+    color: $text-article-color;
   }
   &__footer {
     display: flex;
@@ -32,16 +44,37 @@
     align-items: center;
   }
   &__arrow {
-    display: flex;
-
+    width: 105px;
+    height: 38px;
   }
-  &__arrow_sliders_right {
-
+  &__button {
+    width: 160px;
+    height: 38px;
+    background-color: $services-element4;
+    color: $top-menu-color;
+    border-radius: 5px;
+  }
+  &__arrow_review_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   }
   &__review {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   &__arrow_review_left {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
