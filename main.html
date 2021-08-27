@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="dist/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="node_modules/jquery/package.json"></script>
 </head>
 <body lang="ru">
 <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; opacity: 0">
@@ -185,14 +186,19 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
     </symbol>
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; opacity: 0">
-    <symbol id="arrowLeft" viewBox="0 0 128 128">
-        <g><g><line style="fill:none;stroke:#2F3435;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="57.12" x2="17.787" y1="103.334" y2="64"/><line style="fill:none;stroke:#2F3435;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="17.787" x2="57.12" y1="64" y2="24.666"/></g><line style="fill:none;stroke:#2F3435;stroke-width:12;stroke-miterlimit:10;" x1="17.787" x2="118.213" y1="64" y2="64"/></g>
-    </symbol>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <symbol id="arrowRight" viewBox="0 0 24 24">
-        <path id="right-a" d="M2.29289322,0.292893219 C2.68341751,-0.0976310729 3.31658249,-0.0976310729 3.70710678,0.292893219 C4.09763107,0.683417511 4.09763107,1.31658249 3.70710678,1.70710678 L1.70710678,3.70710678 C1.31658249,4.09763107 0.683417511,4.09763107 0.292893219,3.70710678 C-0.0976310729,3.31658249 -0.0976310729,2.68341751 0.292893219,2.29289322 L2.29289322,0.292893219 Z"/>
-        <path id="right-c" d="M3.41421356,4 L13.0014708,4 C13.5529433,4 14,4.44771525 14,5 C14,5.55228475 13.5529433,6 13.0014708,6 L3.41421356,6 L5.70710678,8.29289322 C6.09763107,8.68341751 6.09763107,9.31658249 5.70710678,9.70710678 C5.31658249,10.0976311 4.68341751,10.0976311 4.29289322,9.70710678 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L3.41421356,4 Z"/>
+    <symbol id="arrowArticle" viewBox="0 0 105 38">
+        <image width="105" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAmCAYAAADHjLWDAAAAAXNSR0IArs4c6QAAAERlWElmTU
+        0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAaaADAAQAAAABAAAAJgAAAAAfNnZ6AAAD4ElEQVRoBe2ba0hUQRTHz92HGhWtK2qmlhSBJqtiZmAE0gM
+        ykAJLxQ9iFog9IPtifbCIIDTYLBC1shAhKFMIhB70UsrKR5ItohCVprIfQt2oaG1bt3uuzrKrBe7O3Mu92x3Q2Zk7c+Z/zm/nxWW5ZpdLu2Zo3KDVaDiQeXLOzLhG4qNtuRzn9FeqEv3lugbHw
+        rjfGgvHQZS/jkvVz+UCq0s3Y9qcEDPh75hK9FcTAvpM3mHZA5qDEjWn119GoER/Nb+czjx+FikioU7USyNWif5qaBxW+0oTARWSNHGmGkWFRBU+aTqrkKSJM9UoKiSq8EnTWYUkTZypRlEhUYVPms6
+        iQPpqm4KrtWaw9PdJ44UMRrGOj8L9tlZwOBzM1TCHNDU5ASUHcuAaD6m0eB8MDvQzFy03g6Mjn6AwPwtOnzoG5WWHmINiCgkBlR7cDx/eDwlxnJ62w5uel3KLKXM9Tx/fA9vUpGD3efsj5qCYQZoPCB
+        WnpW+BfflFgvhA/pe9NxdiYuPcLrIGxQTSvwBV1zZBSMgSt/hA/WAMC4crja2igdLRBu5vgAyhRtiTUwCvOzsWmE80pUB4xMoF9UqqwGX88/BHcPHvTjzTiZNnoaL8KPz4/k2oJjOqqroB9Hq9Z1OfPlN
+        BQjGeexAZGdfnivIjpOiVJ2xIgqbmB151SiuUHS6Enq4Xi5JNQF241AA6nX+gqJY7y7s+9yFhUYr5Rjbb7Aa72PZybDc2OuyTLATV2+3/AYoKUlp6BmzN3OmTYM8N1qeOMmpsMBh9UrNufTyYklJ96uPZm
+        Gq5w+mL6y3eDfDbQtLSZcvhXFUNREauIlVCzvFv7VbHrfWqU2LBXNMIA5a3C6Tb7T/BXFnhPo5jAwRUd/0OYEz8TVSQcFDcEAVQx3lQHbOgcK+6WHlGOPFERCrlzfziQ4gHn8ztu7w6ICDcq8h9CR8SQKHGM
+        K+2vhaoljsyGII6b64X7kWkDtftkqIcmJz4QqoCNieAers73T6yAoQGmUBCQ3gfwnsRXmBJQlBtd5tJMWDzlluN/MFAHEAYNGaQ0Nh8UHhf2rZjNz4K6LRxUwYEB4cIPrKcQSRo1HsSMURyBHW5/iY8edgGKa
+        npEBUdSx4FbJ6QmAx1N1rgVeczyCsohhWGUKa+MoeE6oKCgiArO4epULkbMyWnAv6JkZgud2IIVG0y3pPUgIoTAXUmiRNXplZVSEzDKY4xFZI4cWVqVYXENJziGFMhiRNXplZVSEzDKY4xTZBWe3veW2BxRmJg
+        FXWiXhpTSvRXYwdHO++0lcZxCfta5/T6PaQS/eWU+EPf/+2HzX8AZxZq1uiMQ3AAAAAASUVORK5CYII=">
+        </image>
     </symbol>
 </svg>
 <header class="header">
@@ -292,8 +298,9 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
         <li><a class="top-menu__point" href="">РЕНТГЕН ИССЛЕДОВАНИЯ</a></li>
     </ul>
 </div>
-<div class="clinics">
-    <div class="clinics__element">
+<div class="clinics" class="container">
+    <div class="row">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -312,7 +319,7 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
-    <div class="clinics__element">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -331,7 +338,9 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
-    <div class="clinics__element">
+    </div>
+    <div class="row">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -350,7 +359,7 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
-    <div class="clinics__element">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -369,7 +378,9 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
-    <div class="clinics__element">
+    </div>
+    <div class="row">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -388,7 +399,7 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
-    <div class="clinics__element">
+    <div class="clinics__element" class="col-lg-6">
         <div class="clinics__header">
             <img class="clinics__logo" src="img/logo2.png" ALT="Clinic Logo">
             <div class="clinics__info">
@@ -407,6 +418,7 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <input class="clinics__button" type="button" name="call" value="Заказать звонок">
         </div>
     </div>
+</div>
 </div>
 <div class="container-button">
     <input class="container-button__button" type="button" value="Все кабинеты">
@@ -415,20 +427,35 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
     <div class="sliders__articles">
         <h1 class="sliders__h">Последние статьи</h1>
         <article class="sliders__article1">
-           <img class="sliders__img" src="img/article1.png" alt="image for article #1">
+            <img class="sliders__img" src="img/article1.png" alt="image for article #1">
             <p class="sliders__text">
                 Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки.
                 <br> <br>
                 На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс – поскольку читать его неинтересно, внимание переключается именно на оформление макета, заказчик будет сосредоточен на изучении формы, дизайна, верстки.
             </p>
         </article>
+        <article class="sliders__article2">
+            <img class="sliders__img" src="img/article1.png" alt="image for article #1">
+            <p class="sliders__text">
+                #2 Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки.
+                <br> <br>
+                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс – поскольку читать его неинтересно, внимание переключается именно на оформление макета, заказчик будет сосредоточен на изучении формы, дизайна, верстки.
+            </p>
+        </article>
+        <article class="sliders__article3">
+            <img class="sliders__img" src="img/article1.png" alt="image for article #1">
+            <p class="sliders__text">
+                #3 Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки.
+                <br> <br>
+                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс – поскольку читать его неинтересно, внимание переключается именно на оформление макета, заказчик будет сосредоточен на изучении формы, дизайна, верстки.
+            </p>
+        </article>
         <div class="sliders__footer">
-               <button type="button">
-                  <xvg>
-                       <use xlink:href="#arrowLeft"></use>
-                   </xvg>
-               </button>
-        <input class="sliders__button" type="button" value="Читать подробнее">
+            <svg class="sliders__arrow sliders__arrow_review_left">
+                <use xlink:href="#arrowArticle">
+                </use>
+            </svg>
+            <input class="sliders__button" type="button" value="Читать подробнее">
         </div>
     </div>
     <div class="sliders__review">
@@ -439,14 +466,12 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             <br>  <br>
             На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс – поскольку читать его неинтересно, внимание переключается именно на оформление макета, заказчик будет сосредоточен на изучении формы, дизайна, верстки.
         </p>
-        <button type="button">
         <div class="sliders__arrow_review_right">
-        <!-- <svg class="sliders__arrow sliders__arrow_review_right">
-            <use xlink:href="#arrowArticle">
-            </use>
-        </svg>-->
+            <svg class="sliders__arrow sliders__arrow_review_right">
+                <use xlink:href="#arrowArticle">
+                </use>
+            </svg>
         </div>
-        </button>
     </div>
 </div>
 <!--<button class="clinics__buttonup" type="button">Scroll to Up</button>-->

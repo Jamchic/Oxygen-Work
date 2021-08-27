@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: space-around;
   }
-  &__article1 {
+  &__article1, &__article2, &__article3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
