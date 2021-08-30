@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="dist/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="node_modules/jquery/package.json"></script>
+    <style>
+        #news article {display:none;}
+        #news article.sliders__article1 {display:block;}
+    </style>
 </head>
 <body lang="ru">
 <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; opacity: 0">
@@ -423,8 +427,8 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
 <div class="container-button">
     <input class="container-button__button" type="button" value="Все кабинеты">
 </div>
-<div class="sliders">
-    <div class="sliders__articles">
+<div class="sliders" class="container">
+    <div class="sliders__articles" id="news" class="col-6">
         <h1 class="sliders__h">Последние статьи</h1>
         <article class="sliders__article1">
             <img class="sliders__img" src="img/article1.png" alt="image for article #1">
@@ -451,14 +455,14 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             </p>
         </article>
         <div class="sliders__footer">
-            <svg class="sliders__arrow sliders__arrow_review_left">
-                <use xlink:href="#arrowArticle">
-                </use>
-            </svg>
+            <div class="sliders__arrows">
+           <input id="prev" type="image" src="img/Button%20Arrow%20copy.png">
+            <input id="next" type="image"  src="img/Button%20Arrow.png">
+            </div>
             <input class="sliders__button" type="button" value="Читать подробнее">
         </div>
     </div>
-    <div class="sliders__review">
+    <div class="sliders__review" class="col-6">
         <h1 class="sliders__h">Отзывы о нас</h1>
         <p class="sliders__text">
             Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки.
@@ -467,13 +471,30 @@ MDctMjRUMTA6MDc6MjcrMDM6MDDKPoGXAAAAAElFTkSuQmCC">
             На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс – поскольку читать его неинтересно, внимание переключается именно на оформление макета, заказчик будет сосредоточен на изучении формы, дизайна, верстки.
         </p>
         <div class="sliders__arrow_review_right">
-            <svg class="sliders__arrow sliders__arrow_review_right">
-                <use xlink:href="#arrowArticle">
-                </use>
-            </svg>
+            <div class="sliders__arrows">
+                <img src="img/Button%20Arrow%20copy.png">
+                <img src="img/Button%20Arrow.png">
+            </div>
         </div>
     </div>
 </div>
 <!--<button class="clinics__buttonup" type="button">Scroll to Up</button>-->
 </body>
+<script>
+    $(function () {
+        let current = $(".sliders__articles article").sliders__article1();
+        $('#next').click(function () {
+            $(current).not('.sliders__article3').hide("fast", function (){
+                current = $(current).next("article");
+                $(current).show("fast");
+            })
+        })
+        $('#prev').click(function () {
+            $(current).not('.sliders__article1').hide("fast", function () {
+                current = $(current).prev("article");
+                $(current).show("fast");
+            })
+        })
+    })
+</script>
 </html>
